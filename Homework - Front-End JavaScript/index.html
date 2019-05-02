@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Front-End JavaScript Homework</title>
+    <script src="temperature.js"></script>
+</head>
+
+<body>
+    <h1 style="padding-left: 0;margin-left: 15px;">Temperature Converter</h1>
+    <div>
+        <div class="row">
+            <div class="col">
+                    <p id="errorMessage" style="color:#FF0000"></p>
+                <form id="tempForm">
+                    <h4>Enter the temperature to be converted</h4>
+                    <input type="text" name="number">
+                    <div>                    
+                        <input type="radio" name="temp" value="Fahrenheit"> Fahrenheit<br>
+                        <input type="radio" name="temp" value="Celcius"> Celcius<br>
+                    </div>
+                  </form>
+                  <button type="submit" form="tempform" value="Submit" onclick="display()">Submit</button>
+            </div>
+            <div class="col">
+                <h4>Output:</h4>
+                <p id="output">N/A</p>
+            </div>
+        </div>
+    </div>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+</body>
+
+</html>
