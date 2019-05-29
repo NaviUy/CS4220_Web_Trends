@@ -54,8 +54,8 @@ export default {
     zoom:"&zoom=14",
     size: "&size=500x500",
     marker: "&markers=color:red%7C",
-    apikey: "&key=AIzaSyDmQDxwaAY7bAMqpNB4NiiQRxgrPjG58cc",
-    newURL: "https://maps.googleapis.com/maps/api/staticmap?center=0,0&zoom=14&size=500x500&markers=color:red%7C0,0&key=AIzaSyDmQDxwaAY7bAMqpNB4NiiQRxgrPjG58cc"
+    apikey: "INSERT API KEY",
+    newURL: "https://maps.googleapis.com/maps/api/staticmap?center=0,0&zoom=14&size=500x500&markers=color:red%7C0,0&key=[API KEY]"
 
     }
   },
